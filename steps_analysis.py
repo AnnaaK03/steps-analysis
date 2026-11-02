@@ -15,3 +15,6 @@ import xml.etree.ElementTree as ET
 
 import pandas as pd
 import matplotlib
+matplotlib.use("Agg")  # draw to files, no window
+
+# ---------- Settings ----------
